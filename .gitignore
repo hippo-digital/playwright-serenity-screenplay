@@ -24,3 +24,11 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.swp
+
+# Ignore specific directory
+apps.API.Tests/obj/
+apps.Frontend.Tests/obj/
+playwright-report/
+.vs/
+pnpm-lock.yaml
+package-lock.json

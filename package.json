@@ -1,0 +1,32 @@
+{
+  "name": "playwright_serinity_screenplay_dotnet",
+  "version": "1.0.0",
+  "description": "A testing framework using Playwright and Serenity/JS following the Screenplay pattern.",
+  "main": "index.js",
+  "scripts": {
+    "serenity:run": "serenity run",
+    "test": "playwright test",
+    "test:ci": "cross-env CI=true playwright test"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.48.1",
+    "@serenity-js/assertions": "^3.29.4",
+    "@serenity-js/playwright-test": "^3.29.4",
+    "@serenity-js/rest": "^3.29.5",
+    "@serenity-js/serenity-bdd": "^3.29.4",
+    "@serenity-js/web": "^3.29.4",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@serenity-js/console-reporter": "^3.29.4",
+    "@serenity-js/core": "^3.29.5",
+    "@serenity-js/playwright": "^3.29.5",
+    "@types/node": "^22.7.5",
+    "playwright": "^1.48.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
